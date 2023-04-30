@@ -84,11 +84,7 @@
     //     echo "<br>";
     // }
 
-    $name = array('Name' >= 'Reduan', 'Location:' >= 'Dhaka');
-    foreach ($love as $key=>$value) {
-        echo "$key = $value " ;
-        echo "<br>";
-    }
+
 
     function newNumber(){
         $num = 11;
@@ -236,8 +232,49 @@ echo "<br>";
 // }
 
 
+echo "<h1> List Create use LOOP </h1>";
+for ($i=0; $i <= 10 ; $i+= 2) { 
+    echo " Hello Reduan $i <br>  ";
+}
+
+for ($test=0; $test <=10 ; $test++) { 
+    echo "<br>";
+    if ($test == 5) {
+        continue;
+    }
+    echo "Hello Arafat $test <br>";
+}
 
 
+echo "<br>";
+
+for ($run=1; $run <=5 ; $run++) { 
+    if( $run ==3){
+        continue;
+    }
+    echo " <h3> Hello Reduan / $run</h3>";
+    echo " <h3> hello Arafat 20 </h3>";
+
+}
+
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+
+echo "<h1> Sub Menu Create use Nested LOOP </h1>";
+for ($list=1; $list <=5 ; $list++) { 
+    echo "<ul> <li> Hello $list </li> </ul>";
+    for ($sub_list=1; $sub_list <=5 ; $sub_list++) { 
+        echo "------------ Reduan $sub_list <br>";
+    }
+}
 
 
 

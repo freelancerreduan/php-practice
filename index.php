@@ -147,8 +147,67 @@
     ?> -->
 
 
+    <ul>
+        <?php 
+            for ($user=1; $user <=5 ; $user++) { 
+                echo "<li>User $user </li>";
+            }
+        ?>
+        
+    </ul>
+
+    
+    
+    
+    
+    
+    <ul>
+        <li>Reduan 1 
+            <ul>
+                <li>hello</li>
+                <li>hello</li>
+                <li>hello</li>
+            </ul>
+        </li>
+        <li> Rafika
+            <ul>
+                <li>hello</li>
+                <li>hello</li>
+                <li>hello</li>
+            </ul>
+        </li>
+        <li>helo </li>
+    </ul>
+    <?php 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+echo "<br>";
+echo "<br>";
+echo "<br>";
+?>
 </body>
 </html>
